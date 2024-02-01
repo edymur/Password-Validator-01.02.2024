@@ -14,14 +14,14 @@ const showMsg = () => {
 		pass.value.match(special)
 	) {
 		p.textContent = 'Masz bardzo dobre hasło😊';
-		p.style.color = '#76453B';
+		p.style.color = '#711DB0';
 	} else if (
 		pass.value.length > minValue &&
 		pass.value.match(letters) &&
 		pass.value.match(numbers)
 	) {
 		p.textContent = 'Masz dobre hasło😁';
-		p.style.color = 'gold';
+		p.style.color = '#bea216';
 	} else {
 		p.textContent = 'Masz słabe hasło😣';
 		p.style.color = 'tomato';
