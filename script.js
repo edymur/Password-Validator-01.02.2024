@@ -8,7 +8,7 @@ const minValue = 10;
 const showMsg = () => {
 	// console.log(pass.value);
 	if (
-		pass.value.lenght > minValue &&
+		pass.value.length > minValue &&
 		pass.value.match(letters) &&
 		pass.value.match(numbers) &&
 		pass.value.match(special)
@@ -16,7 +16,7 @@ const showMsg = () => {
 		p.textContent = 'Masz bardzo dobre hasło^^';
 		p.style.color = 'lime';
 	} else if (
-		pass.value.lenght > minValue &&
+		pass.value.length > minValue &&
 		pass.value.match(letters) &&
 		pass.value.match(numbers)
 	) {
