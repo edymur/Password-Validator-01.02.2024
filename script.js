@@ -14,7 +14,7 @@ const showMsg = () => {
 		pass.value.match(special)
 	) {
 		p.textContent = 'Masz bardzo dobre hasło😊';
-		p.style.color = 'lime';
+		p.style.color = '#76453B';
 	} else if (
 		pass.value.length > minValue &&
 		pass.value.match(letters) &&
